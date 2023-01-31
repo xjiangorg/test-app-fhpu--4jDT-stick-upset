@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: test-component-mjac
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images:2d4a105d6faf4184bd2350362b4ae897
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:a1c96ff5c278e6eae51f823daef0477600e88567eafcf3222a50169bfbebc156
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
